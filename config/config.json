@@ -1,0 +1,16 @@
+{
+  "mongoconnect": "mongodb://127.0.0.1:27017/reduxblog",
+  "port": 3000,
+  "default_locals": {
+    "title": "Backend for redux blog sample app",
+    "default_layout": "layout/page",
+    "global_scripts": [
+      "/vendor/bower_components/jquery/dist/jquery.js",
+      "/vendor/bower_components/bootstrap/dist/js/bootstrap.js",
+      "/vendor/bower_components/angular/angular.min.js",
+      "/vendor/bower_components/angular-animate/angular-animate.min.js",
+      "/vendor/bower_components/underscore/underscore.js",
+      "/vendor/components/angular-ui-bootstrap/dist/ui-bootstrap-tpls.js"
+    ]
+  }
+}

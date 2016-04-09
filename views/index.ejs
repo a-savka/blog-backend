@@ -1,0 +1,44 @@
+<% layout(default_layout) -%>
+
+<h1><%= title %></h1>
+
+<p>API specification</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Route</th>
+            <th>Method</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+
+    <tbody>
+
+        <tr>
+            <td>/api/blogs</td>
+            <td>GET</td>
+            <td>Get all blog records</td>
+        </tr>
+
+        <tr>
+            <td>/api/blogs/:id</td>
+            <td>GET</td>
+            <td>Get particular blog post</td>
+        </tr>
+
+        <tr>
+            <td>/api/blogs</td>
+            <td>POST</td>
+            <td>Create new blog record</td>
+        </tr>
+
+        <tr>
+            <td>/api/blogs/:id</td>
+            <td>DELETE</td>
+            <td>Delete blog record</td>
+        </tr>
+
+    </tbody>
+
+</table>

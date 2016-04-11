@@ -19,7 +19,7 @@ function _get(id, key) {
 
 
 function _insert(blog) {
-  
+
   var collection = _getCollection();
   var cursor = collection.find({}, {_id: 1}).sort({_id: -1}).limit(1);
 
